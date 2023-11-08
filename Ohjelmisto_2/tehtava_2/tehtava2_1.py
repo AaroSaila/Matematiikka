@@ -17,3 +17,5 @@ plt.xticks([-1, 0, 1], minor=True)
 plt.yticks([-1, 0, 1])
 
 pist_xy = np.array
+
+plt.show()
