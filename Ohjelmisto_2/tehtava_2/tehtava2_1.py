@@ -24,6 +24,7 @@ ax.axis('equal')
 plt.xticks([-1, 0, 1], minor=True)
 plt.yticks([-1, 0, 1])
 
+<<<<<<< HEAD
 pist_xy = np.array(np.radians([30, 45, 60, 90, 120, 150, 180, 270]))
 
 x = np.cos(pist_xy)
@@ -32,3 +33,8 @@ y = np.sin(pist_xy)
 plt.scatter(x, y, marker="X")
 
 plt.show()
+=======
+pist_xy = np.array
+
+plt.show()
+>>>>>>> dbc623ed92357165c2957d0ef2d2e5d643c2f63a
